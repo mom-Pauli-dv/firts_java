@@ -9,14 +9,15 @@ class OtroMain {
         System.out.println("Bienvenidos a screen match");
         System.out.println("Pelicula: Matrix");
 
-        int fechaDeNacimiento = 1999;
+        int fechaDeLanzamiento = 1999;
         boolean incluidoEnElPlan = true;
         double notaDeLaPelicula = 8.2;
 
         double media = (8.2 + 6.8 + 9.8) / 3;
         System.out.println(media);
 
-        int fechaDeLanzamiento = 1999; // Necesitas declarar e inicializar fechaDeLanzamiento dentro del método main de OtroMain
+        // Necesitas declarar e inicializar
+        // fechaDeLanzamiento dentro del método main de OtroMain
         String sinopsis = """
                 MATRIX ES UNA PARADOJA LA MEJOR PELICULA DE
                 TODOS LOS TIEMPOS
